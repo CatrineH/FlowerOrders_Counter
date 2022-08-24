@@ -26,8 +26,8 @@ function save() {
 }
 
 function total(orders) {
-    let countStrDe = 0
-    for( let i = 0; i <countStrDe.length; i++) { sum += countStrDe[i]; 
+    let orders = 0
+    for( let i = 0; i <saveEl.length; i++) { sum += saveEl[i]; 
                                           
      }
     

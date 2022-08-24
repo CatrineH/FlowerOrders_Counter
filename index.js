@@ -19,7 +19,7 @@ function save() {
     let countStr = count + " , "
     let countStrDe = count - " , "
     let ordersTotal = countEl + canceledEl
-    ordersTotal.textContent = count
+    orders.textContent = count
     saveEl.textContent += countStr
     canceledEl.textContent -= countStrDe
     countEl.textContent = 0

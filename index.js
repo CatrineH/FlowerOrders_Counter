@@ -24,11 +24,3 @@ function save() {
     count = 0
 }
 
-function total() {
-    let ordersTotal = countEl + canceledEl
-    orders.textContent = count
-    saveEl.textContent -= countStr
-    count = 0
-    
-}
-

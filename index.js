@@ -24,9 +24,3 @@ function save() {
     count = 0
 }
 
-function orders() {
-     let ordersEl = countStr + countStrDe
-     
-     console.log(ordersEl)
-
-}

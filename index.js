@@ -5,10 +5,10 @@ let saveEl = document.getElementById("save-el")
 let ordersEl = document.getElementById("orders-el")
 let canceledEl = document.getElementById("canceled-el")
 
-let ordersEl = totalOrders();
+let ordersEl = totalOrders(saveEl, count);
 document.getElementById("orders").innerHTML = ordersEl;
 
-function totalOrders(saveEl, count) {
+function totalOrders() {
 return saveEl * count;
 
 }

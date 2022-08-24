@@ -18,12 +18,17 @@ function decrement() {
 function save() {
     let countStr = count + " , "
     let countStrDe = count - " , "
-    let ordersTotal = countEl + canceledEl
-    orders.textContent = count
     saveEl.textContent += countStr
     canceledEl.textContent -= countStrDe
     countEl.textContent = 0
     count = 0
 }
+
+function total() {
+    let ordersTotal = countEl + canceledEl
+    orders.textContent = count
+    saveEl.textContent -= countStr
+    count = 0
+    
 
 

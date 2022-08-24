@@ -3,7 +3,7 @@ let countEl = document.getElementById("count-el")
 let count = 0
 let saveEl = document.getElementById("save-el")
 let canceledEl = document.getElementById("canceled-el")
-let ordersTotal = document.getElementById("orders").innerHTML = "Total Amount of flower orders today is: " + countEl + canceledEl
+let ordersTotal = document.getElementById("orders").innerHTML = "Total Amount of flower orders today is: " 
 
 function increment() {
     count += 1
@@ -18,6 +18,7 @@ function decrement() {
 function save() {
     let countStr = count + " , "
     let countStrDe = count - " , "
+    let ordersTotal = countEl + canceledEl
     saveEl.textContent += countStr
     canceledEl.textContent -= countStrDe
     countEl.textContent = 0

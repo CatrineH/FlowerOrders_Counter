@@ -26,7 +26,7 @@ function save() {
 
 function total() {
     let count = 0;
-    for( let i = 0; i <count.length; i++) { sum += count[i]; 
+    for( let i = 0; i <countStrDe.length; i++) { sum += countStrDe[i]; 
                                           
      }
     

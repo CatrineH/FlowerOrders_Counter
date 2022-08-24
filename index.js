@@ -25,8 +25,9 @@ function save() {
 }
 
 function total() {
-    let totalOrder = countStr + countStrDe
-    countEl.textContent = 1
-    count = 1
+    let count = 0;
+    for( let i = 0; i <count.length; i++) { sum += count[i]; 
+                                          
+     }
     
 

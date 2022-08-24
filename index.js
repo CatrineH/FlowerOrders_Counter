@@ -1,5 +1,5 @@
 let saveEl = document.getElementById("save-el")
-let canceledEl = document.getElementById("canceled-el")
+let ordersEl = document.getElementById("orders-el")
 let countEl = document.getElementById("count-el")
 let count = 0
 
@@ -17,7 +17,11 @@ function save() {
     let countStr = count + " , "
     let countStrDe = count - " , "
     saveEl.textContent += countStr
-    canceledEl.textContent -= countStrDe
+    ordersEl.textContent -= countStrDe
     countEl.textContent = 0
     count = 0
+}
+
+function orders() {
+ let ordersEl = increment + decrement   
 }

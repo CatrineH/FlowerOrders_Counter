@@ -24,11 +24,5 @@ function save() {
     count = 0
 }
 
-function Orders(increment, decrement) {
-    this.orderIncrement = increment;
-    this.orderDecrement = decrement;  
-}
 
-let totalOrders = new Orders(increment + decrement);
-document.getElementById("orders".innerHTML = "Total Flower orders for today is " totalOrders.orderIncrement + totalOrders.orderDecrement " . "
 

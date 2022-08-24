@@ -5,8 +5,6 @@ let saveEl = document.getElementById("save-el")
 let ordersEl = document.getElementById("orders-el")
 let canceledEl = document.getElementById("canceled-el")
 
-let ordersEl = totalOrders(saveEl, count);
-document.getElementById("orders").innerHTML = ordersEl;
 
 function increment() {
     count += 1

@@ -25,6 +25,9 @@ function save() {
 }
 
 function orders() {
- let ordersEl = increment + decrement 
- saveEl.textContent +-= countStr
+     let ordersEl = increment + decrement 
+     saveEl.textContent += countStr
+     canceledEl.textContent -= countStrDe
+     countEl.textContent = 0
+     count = 0
 }

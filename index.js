@@ -2,9 +2,10 @@
 let countEl = document.getElementById("count-el")
 let count = 0
 let saveEl = document.getElementById("save-el")
+let ordersEl = document.getElementById("orders-el")
 let canceledEl = document.getElementById("canceled-el")
 
-let orders = totalOrders(saveEl + count);
+let ordersEl = totalOrders(saveEl + count);
 document.getElementById("orders").innerHTML = orders;
 
 function totalOrders(saveEl, count) {

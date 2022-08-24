@@ -24,5 +24,9 @@ function save() {
     count = 0
 }
 
-
+function total() {
+    let totalOrder = count
+    countEl.textContent = 0
+    count = 0
+    
 

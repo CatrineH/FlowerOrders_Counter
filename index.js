@@ -4,6 +4,13 @@ let count = 0
 let saveEl = document.getElementById("save-el")
 let canceledEl = document.getElementById("canceled-el")
 
+let orders = totalOrders(saveEl + count);
+document.getElementById("orders").innerHTML = orders;
+
+function totalOrders() {
+return saveEl + count;
+
+}
 
 function increment() {
     count += 1

@@ -3,10 +3,16 @@ body {
     background-size: cover;
     font-family:  sans-serif;
     font: source code;
+    height : 100vh;
 
     text-align: center;
     color: #430445;
     
+}
+
+.container {
+    max-width : 80%;
+    margin: auto;
 }
 
 h1 {

@@ -3,6 +3,7 @@ let countEl = document.getElementById("count-el")
 let count = 0
 let saveEl = document.getElementById("save-el")
 let canceledEl = document.getElementById("canceled-el")
+let orders = document.getElementById("total")
 
 
 function increment() {
@@ -24,7 +25,7 @@ function save() {
     count = 0
 }
 
-function total() {
+function total(orders) {
     let countStrDe = 0
     for( let i = 0; i <countStrDe.length; i++) { sum += countStrDe[i]; 
                                           

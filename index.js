@@ -17,7 +17,7 @@ function save() {
     let countStr = count + " , "
     let countStrDe = count - " , "
     saveEl.textContent += countStr
-    canceledEl.textContent =- countStrDe
+    canceledEl.textContent -= countStrDe
     countEl.textContent = 0
     count = 0
 }

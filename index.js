@@ -24,3 +24,7 @@ function save() {
     count = 0
 }
 
+function orders() {
+    let ordersTotal = increment + decrement
+   document.getElementById("orders").innerHTML = "Total Amount of flower orders today is: " + ordersTotal; 
+    }

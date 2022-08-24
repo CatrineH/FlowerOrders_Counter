@@ -24,7 +24,7 @@ function save() {
     count = 0
 }
 
-/*function orders() {
+function orders() {
     let ordersTotal = countEl + canceledEl
-   document.getElementById("orders").innerHTML = "Total Amount of flower orders today is: " + ordersTotal; 
-    }*/
+  
+    }

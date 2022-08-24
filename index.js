@@ -30,5 +30,5 @@ function total() {
     saveEl.textContent -= countStr
     count = 0
     
-
+}
 

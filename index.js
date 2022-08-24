@@ -7,7 +7,7 @@ let canceledEl = document.getElementById("canceled-el")
 let orders = totalOrders(saveEl + count);
 document.getElementById("orders").innerHTML = orders;
 
-function totalOrders() {
+function totalOrders(saveEl, count) {
 return saveEl + count;
 
 }

@@ -47,7 +47,8 @@ p {
     margin-bottom: 5px;
  
     color: #430445;
-  
+    border: 4px solid #430445;
+    border-radius: 25px;
     
   
 }

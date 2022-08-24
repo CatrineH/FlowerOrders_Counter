@@ -9,7 +9,7 @@ let ordersEl = totalOrders(saveEl, count);
 document.getElementById("orders").innerHTML = ordersEl;
 
 function totalOrders() {
-return saveEl * count;
+return saveEl + count;
 
 }
 

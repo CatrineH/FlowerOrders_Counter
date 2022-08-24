@@ -1,6 +1,7 @@
 body {
     background-image: url("flowersScrimba.jpg");
     background-size: cover;
+    height: 100vh;
     background-repeat: no-repeat;
     font-family:  sans-serif;
     text-align: center;

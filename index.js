@@ -3,7 +3,7 @@ let countEl = document.getElementById("count-el")
 let count = 0
 let saveEl = document.getElementById("save-el")
 let canceledEl = document.getElementById("canceled-el")
-let result = document.getElementById("result");
+let ordersEl = document.getElementById("orders");
 
 function increment() {
     count += 1
@@ -27,10 +27,10 @@ function save() {
 
 }
 
-ordersEl.addEventListener("click", () => {
+ordersEl.addEventListener("orders", () => {
   countStr += 1;
     countStrDe -= 1;
-  result.innerHTML = count;
+ ordersEl.innerHTML = count;
 });
 
     

@@ -28,7 +28,7 @@ function save() {
 }
 
 function orders(){
-    let orders = o;
+    let orders = 0;
     for(let i = 0; i < count.length; i++) {
         sum += count[i];
     }

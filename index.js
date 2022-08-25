@@ -28,6 +28,12 @@ function save() {
 }
 
 function orders(){
+    let count = -Infinity;
+    for (let i = 0; i < count.length; i++) {
+        if ( count[i] > max) {
+            max = count[i];
+        }
+    }
     return count;
     
 

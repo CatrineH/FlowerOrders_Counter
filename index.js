@@ -37,9 +37,9 @@ function orders(){
     for(let i = 0; i < count.length; i++) {
         ordersEl += count[i];
     }
-    return orders;
+    return ordersEl;
 }
-document.getElementById("ordersEl".innerHTML = orders();
+
 
     
 

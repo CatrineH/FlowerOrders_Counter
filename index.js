@@ -28,7 +28,12 @@ function save() {
 
 }
 
-
+function orders() {
+  saveEl.textContent += countStr;
+  canceledEl.textContent -= countStrDe;
+  orders.textContent = 0;
+  count = 0;
+}
 
 
     

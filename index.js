@@ -1,10 +1,10 @@
 
 let countEl = document.getElementById("count-el")
-let count = 0
+let count = ordersEl();
 let saveEl = document.getElementById("save-el")
 let canceledEl = document.getElementById("canceled-el")
 let ordersEl = document.getElementById("orders-el");
-let count = ordersEl();
+
 
 function increment() {
     count += 1

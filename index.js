@@ -3,6 +3,7 @@ let countEl = document.getElementById("count-el")
 let count = 0
 let saveEl = document.getElementById("save-el")
 let canceledEl = document.getElementById("canceled-el")
+let result = document.getElementById("result");
 
 function increment() {
     count += 1
@@ -23,9 +24,13 @@ function save() {
     countEl.textContent = 0
     count = 0
     
- 
+
 }
 
+countEl.addEventListener("click", () => {
+  count += 1;
+  result.innerHTML = count;
+});
 
     
 

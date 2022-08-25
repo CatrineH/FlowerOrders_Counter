@@ -4,6 +4,7 @@ let count = 0
 let saveEl = document.getElementById("save-el")
 let canceledEl = document.getElementById("canceled-el")
 let ordersEl = document.getElementById("orders-el");
+let count = ordersEl();
 
 function increment() {
     count += 1
@@ -26,10 +27,10 @@ function save() {
     
 
 }
- let countEl = ordersEl();
-function orders(){
+
+function ordersEl(){
  
-    return ordersEl;
+    return this;
 }
 
 

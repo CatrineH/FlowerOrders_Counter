@@ -27,8 +27,9 @@ function save() {
 
 }
 
-countEl.addEventListener("click", () => {
-  count += 1;
+ordersEl.addEventListener("click", () => {
+  countStr += 1;
+    countStrDe -= 1;
   result.innerHTML = count;
 });
 

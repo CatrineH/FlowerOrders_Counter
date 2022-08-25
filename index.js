@@ -26,17 +26,9 @@ function save() {
     
 
 }
-
+ let count = ordersEl();
 function orders(){
-    let countStr = count + " , "
-    let countStrDe = count - " , "
-    saveEl.textContent += countStr
-    canceledEl.textContent -= countStrDe
-    countEl.textContent = 0
-    count = 0
-    for(let i = 0; i < countEl.length; i++) {
-        ordersEl += countEl[i];
-    }
+ 
     return ordersEl;
 }
 

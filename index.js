@@ -28,20 +28,13 @@ function save() {
 }
 
 function orders(){
-    let countEl = -Infinity;
-    saveEl.textContent += countStr
-    canceledEl.textContent -= countStrDe
-    countEl.textContent = 0
-    count = 0
-    for (let i = 0; i < count.length; i++) {
-        if ( count[i] > max) {
-            max = count[i];
-        }
+    let orders = o;
+    for(let i = 0; i < count.length; i++) {
+        sum += count[i];
     }
-    return count;
-    
-
+    return orders;
 }
+document.getElementById("ordersEl".innerHTML = orders();
 
     
 

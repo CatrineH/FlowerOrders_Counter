@@ -40,6 +40,8 @@ saveEl.array.forEach(countEl => {
      else if (countEl.innerText == countStrDe) {
         count--;
      }
+    button.innerHTML = count;
+    })
 })
 
 

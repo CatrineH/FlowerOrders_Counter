@@ -25,24 +25,6 @@ function save() {
     
  
 }
-// foreach method
-// event listner function
-saveEl.array.forEach(countEl => {
-    let countEl = countEl.currentCountEl
-    
-     //condition for counter variable
-     if (countEl.innerText == count) {
-        count = 0;
-     }
-     else if (countEl.innerText == countStr) {
-        count++;
-     }
-     else if (countEl.innerText == countStrDe) {
-        count--;
-     }
-    button.innerHTML = count;
-    })
-})
 
 
     

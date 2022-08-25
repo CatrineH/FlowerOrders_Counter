@@ -28,7 +28,12 @@ function save() {
 }
 
 function orders(){
-    let ordersEl = 0;
+    let countStr = count + " , "
+    let countStrDe = count - " , "
+    saveEl.textContent += countStr
+    canceledEl.textContent -= countStrDe
+    countEl.textContent = 0
+    count = 0
     for(let i = 0; i < count.length; i++) {
         ordersEl += count[i];
     }

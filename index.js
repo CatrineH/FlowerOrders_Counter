@@ -28,9 +28,9 @@ function save() {
 }
 
 function orders(){
-    let orders = 0;
+    let ordersEl = 0;
     for(let i = 0; i < count.length; i++) {
-        sum += count[i];
+        ordersEl += count[i];
     }
     return orders;
 }

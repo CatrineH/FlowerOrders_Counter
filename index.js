@@ -34,8 +34,8 @@ function orders(){
     canceledEl.textContent -= countStrDe
     countEl.textContent = 0
     count = 0
-    for(let i = 0; i < count.length; i++) {
-        ordersEl += count[i];
+    for(let i = 0; i < countEl.length; i++) {
+        ordersEl += countEl[i];
     }
     return ordersEl;
 }

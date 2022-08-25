@@ -27,11 +27,11 @@ function save() {
 
 }
 
-ordersEl.addEventListener("orders", () => {
-  count += 1;
-  count -= 1;
- ordersEl.textContent = count;
-});
+function orders(){
+    return count;
+    
+
+}
 
     
 

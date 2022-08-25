@@ -16,17 +16,31 @@ function decrement() {
 }
 
 function save() {
-//     let countStr = count + " , "
-//     let countStrDe = count - " , "
-//     saveEl.textContent += countStr
-//     canceledEl.textContent -= countStrDe
-//     countEl.textContent = 0
-//     count = 0
+    let countStr = count + " , "
+    let countStrDe = count - " , "
+    saveEl.textContent += countStr
+    canceledEl.textContent -= countStrDe
+    countEl.textContent = 0
+    count = 0
     
-    saveEl.innerText = count;
-    count = 0;
-    countEl.innerText = count;
+ 
 }
+// foreach method
+// event listner function
+saveEl.array.forEach(countEl => {
+    let countEl = countEl.currentCountEl
+    
+     //condition for counter variable
+     if (countEl.innerText == count) {
+        count = 0;
+     }
+     else if (countEl.innerText == countStr) {
+        count++;
+     }
+     else if (countEl.innerText == countStrDe) {
+        count--;
+     }
+})
 
 
     

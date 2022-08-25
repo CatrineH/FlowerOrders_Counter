@@ -3,7 +3,7 @@ let countEl = document.getElementById("count-el")
 let count = ordersEl();
 let saveEl = document.getElementById("save-el")
 let canceledEl = document.getElementById("canceled-el")
-let ordersEl = document.getElementById("orders-el");
+
 
 
 function increment() {

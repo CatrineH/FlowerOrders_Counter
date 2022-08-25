@@ -28,8 +28,8 @@ function save() {
 }
 
 ordersEl.addEventListener("orders", () => {
-  countStr += 1;
-    countStrDe -= 1;
+  count += 1;
+  count -= 1;
  ordersEl.innerHTML = count;
 });
 

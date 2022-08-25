@@ -30,7 +30,7 @@ function save() {
 ordersEl.addEventListener("orders", () => {
   count += 1;
   count -= 1;
- ordersEl.innerHTML = count;
+ ordersEl.textContent = count;
 });
 
     
